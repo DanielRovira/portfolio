@@ -1,0 +1,17 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('../Corleone.TTF');
+  }
+
+:root {
+    --bg-color1: black;
+    --bg-color2: darkgrey;
+
+    --header-font: white;
+    --header-font-detail: black;
+    --header-bg: rgba(255, 255, 255, 0.15);
+    --header-border: black;
+
+    --projects-border: black;
+    --projects-border-hover: burlywood;
+}

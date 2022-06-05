@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(70deg, var(--bg-color1) 50%, var(--bg-color2) 50%);
+    height: 100vh;
+}
+
+.index {
+    font-family: myFirstFont;
+    width: 50%;
+    font-size: 40px;
+}
+
+.index ul {
+    margin-left: 30%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.index a {
+    color: var(--header-font);
+}
+
+.index a:hover {
+    color: var(--header-font-detail);
+    transition: 0.3s;
+}
+
+.logo img{
+    padding: 10px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.bar {
+    background-color: var(--header-bg);
+    backdrop-filter: blur(10px);
+    border-bottom: solid 1px var(--header-border);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 700px;
+    margin: 10px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.projects img {
+    max-width: 300px;
+    border-radius: 5px;
+    border: solid 2px var(--projects-border);
+    transition: 0.2s ease-in-out;
+}
+
+.projects img:hover {
+    animation: c-glowing-blue .3s ease-in-out infinite;
+    animation-direction: alternate;
+    transform: scale(1.07);
+    border: 2px solid var(--projects-border-hover);
+}
