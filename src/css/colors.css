@@ -14,4 +14,7 @@
 
     --projects-border: black;
     --projects-border-hover: burlywood;
-}
+
+    --button-bg: black;
+    --button: white;
+    }

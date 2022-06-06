@@ -1,6 +1,25 @@
 body {
-    background: linear-gradient(70deg, var(--bg-color1) 50%, var(--bg-color2) 50%);
+    background: linear-gradient(70deg, var(--bg-color1) 50%, var(--bg-color2));
     height: 100vh;
+}
+
+.close-menu {display: none;}
+
+.bar {
+    position: fixed;
+    width: 100%;
+    background-color: var(--header-bg);
+    backdrop-filter: blur(10px);
+    /* border-bottom: solid 1px var(--header-border); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    padding: 10px;
+    width: 120px;
+    border-radius: 50%;
 }
 
 .index {
@@ -10,7 +29,6 @@ body {
 }
 
 .index ul {
-    margin-left: 30%;
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -22,22 +40,11 @@ body {
 
 .index a:hover {
     color: var(--header-font-detail);
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
-.logo img{
-    padding: 10px;
-    width: 120px;
-    border-radius: 50%;
-}
-
-.bar {
-    background-color: var(--header-bg);
-    backdrop-filter: blur(10px);
-    border-bottom: solid 1px var(--header-border);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.home {
+    height: 500px;
 }
 
 .projects {
@@ -51,7 +58,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    max-width: 700px;
+    max-width: 80%;
     margin: 10px;
     gap: 10px;
     cursor: pointer;
