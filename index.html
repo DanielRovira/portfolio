@@ -9,29 +9,30 @@
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/colors.css">
     <link rel="stylesheet" href="./src/css/navigation.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
 </head>
 <body>
     <div>
-        <!-- <input type="checkbox" class="close-menu" id="close-menu" aria-label="Close menu" role="button"> -->
-        <!-- <label for="close-menu" class="close-menu-label" title="Close menu"></label> -->
+        <input type="checkbox" class="close-menu" id="close-menu" aria-label="Close menu" role="button">
+        <label for="close-menu" class="close-menu-label" title="Close menu"></label>
         <div class="bar">
             <div class="logo">
                 <a href="index.html">
                     <img src="./src/img/logo.jpg" alt="Logo">
                 </a>
             </div>
-            <nav class="index">
-                <ul>
+            <div class="index">
+                <ul onclick="getElementById('close-menu').checked=false;">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#">About me</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#">Skills</a></li>
                 </ul>
-            </nav>
+            </div>
         </div>
 
         <section id="home">
-            <div>
+            <div class="home">
 
             </div>
         </section>
@@ -54,6 +55,22 @@
                     <li id="project4">
                         <a href="">
                         <img src="./src/img/loading.png" alt="Project 4"></a>
+                    </li>
+                    <li id="project5">
+                        <a href="">
+                        <img src="./src/img/loading.png" alt="Project 5"></a>
+                    </li>
+                    <li id="project6">
+                        <a href="">
+                        <img src="./src/img/loading.png" alt="Project 6"></a>
+                    </li>
+                    <li id="project7">
+                        <a href="">
+                        <img src="./src/img/loading.png" alt="Project 7"></a>
+                    </li>
+                    <li id="project8">
+                        <a href="">
+                        <img src="./src/img/loading.png" alt="Project 8"></a>
                     </li>
                 </ul>
             </div>
