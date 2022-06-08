@@ -3,10 +3,10 @@
 
     .bar {
         position: fixed;
-        top: -120%;
+        top: -110vh;
         transition: ease 0.3s;
         width: 100%;
-        height: 120%;
+        height: 110vh;
         flex-direction: column;
     }
     
