@@ -197,7 +197,7 @@ nav ul li a:hover::after {
 
 ::-webkit-scrollbar {
   width: 12px;
-  background-color: #1b1b1b;
+  background-color: var(--scrollbar1);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -210,5 +210,5 @@ nav ul li a:hover::after {
 }
 
 ::selection {
-  background-color: var(--header-font-detail);
+  background-color: var(--scrollbar2);
 }
