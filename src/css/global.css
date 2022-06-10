@@ -30,3 +30,27 @@ body {
 ::selection {
   background-color: var(--color2);
 }
+
+/* Scroll down */
+.scroll {
+    position: absolute;
+    bottom: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.scroll a {
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-bottom: 2vh;
+    color: var(--font);
+}
+
+.scroll a:hover {
+    color: var(--color2);
+    transition: 0.5s;
+}
+
+.scroll img {
+    animation: scroll-down 3s infinite forwards;
+}
