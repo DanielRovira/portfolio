@@ -31,11 +31,6 @@
     color: var(--font);
 }
 
-.scroll a:hover {
-    color: var(--color2);
-    transition: 0.5s;
-}
-
 .scroll img {
     animation: scroll-down 3s infinite forwards;
 }

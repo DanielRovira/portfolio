@@ -62,3 +62,8 @@
 .hover h1:hover::after, .hover a:hover::after {
     transform: scaleX(1);
 }
+
+.hover h1:hover, .hover a:hover {
+    color: var(--color2);
+    transition: 0.5s;
+}
