@@ -1,5 +1,5 @@
 
-@media (max-width:950px) {
+@media (max-width:9000px) {
 
     .bar {
         position: fixed;
@@ -57,5 +57,25 @@
 
     .index ul li {
         margin: 10px;
+    }
+    
+    .home {
+        padding: 100px 0;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .home .home-left {
+        width: 90%;
+    }
+    
+    .home .home-right img {
+       width: 300px;
+       margin-block: 90px;
+    }
+    
+    .home .scroll {
+        
     }
 }
