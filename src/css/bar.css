@@ -44,7 +44,7 @@
     transition: 0.15s;
 }
 
-/* Navigation button effect */
+/* Bar button effect */
 nav ul li a::after {
     content: "";
     display: block;
