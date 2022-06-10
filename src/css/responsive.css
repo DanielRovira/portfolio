@@ -54,8 +54,8 @@
     .index ul {
         flex-direction: column;
         text-align: center;
-        gap: 40px;
         align-items: center;
+        gap: 40px;
     }
 
     .index ul li {
