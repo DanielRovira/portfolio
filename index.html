@@ -9,17 +9,15 @@
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/colors.css">
     <link rel="stylesheet" href="./src/css/navigation.css">
-    <link rel="stylesheet" href="./src/css/responsive.css">
+    <!-- <link rel="stylesheet" href="./src/css/responsive.css"> -->
 </head>
 <body>
-    <div>
+    <header>
         <input type="checkbox" class="close-menu" id="close-menu" aria-label="Close menu" role="button">
         <label for="close-menu" class="close-menu-label" title="Close menu"></label>
-        <div class="bar">
+        <nav class="bar">
             <div class="logo">
-                <a href="index.html">
-                    <img src="./src/img/logo.jpg" alt="Logo">
-                </a>
+                <a href="index.html"><img src="./src/img/logo.jpg" alt="Logo"></a>
             </div>
             <div class="index">
                 <ul onclick="getElementById('close-menu').checked=false;">
@@ -29,13 +27,24 @@
                     <li><a href="#">Skills</a></li>
                 </ul>
             </div>
-        </div>
+        </nav>
+    </header>
+    <main>
 
-        <section id="home">
-            <div class="home">
-
+        <section id="home" class="home">
+            <div class="home-left">
+                <h1>Hi, I'm</h1>
+                <span class="name"></span>
+                <span class="cursor"></span>
+                <h1>&lt;code developer/&gt;</h1>
+            </div>
+            <div class="home-right">
+                <img src="./src/img/coder.png" alt="Coder">
             </div>
         </section>
+
+
+
 
         <section id="projects">
             <div class="projects">
@@ -76,6 +85,7 @@
             </div>
         </section>
 
-    </div>
+    </main>
 </body>
+<script src="./src/js/typing.js"></script>
 </html>

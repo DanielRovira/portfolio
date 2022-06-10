@@ -1,37 +1,47 @@
 body {
-    background: linear-gradient(70deg, var(--bg-color1) 50%, var(--bg-color2));
-    height: 100vh;
+    font-family: "Inter", sans-serif;
+    /* letter-spacing: 1px; */
+    background-color: var(--bg-color);
+    height: 100%;
 }
 
 .close-menu {display: none;}
 
 .bar {
+    z-index: 1;
     position: fixed;
     width: 100%;
     background-color: var(--header-bg);
     backdrop-filter: blur(10px);
-    /* border-bottom: solid 1px var(--header-border); */
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 5%;
+    border-bottom: 1px solid var(--header-border);
 }
 
 .logo img{
-    padding: 10px;
-    width: 120px;
+    width: 80px;
     border-radius: 50%;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.6);
 }
 
 .index {
-    font-family: myFirstFont;
     width: 50%;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .index ul {
+    width: 100%;
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: right;
+}
+
+.index ul li {
+    margin-left: 5vh;
+    font-weight: bold;
 }
 
 .index a {
@@ -40,12 +50,64 @@ body {
 
 .index a:hover {
     color: var(--header-font-detail);
-    transition: 0.2s;
+    transition: 0.15s;
 }
 
 .home {
-    height: 500px;
+    position: relative;
+    display: flex;
+    padding: 250px;
+    justify-content: center;
+    /* align-items: center; */
 }
+
+.home .home-left {
+    color: #c4c4c4;
+    width: 50%;
+}
+
+.home .home-left h1 {
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.home .home-left .name {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--header-font-detail);
+}
+
+.home .home-right img {
+    width: 500px;
+}
+
+.home .cursor {
+    width: 3px;
+    height: 40px;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    animation: blink 0.6s infinite alternate;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    40% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
 
 .projects {
     display: flex;
@@ -76,4 +138,36 @@ body {
     animation-direction: alternate;
     transform: scale(1.07);
     border: 2px solid var(--projects-border-hover);
+}
+
+
+nav ul li a::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid var(--header-font-detail);
+    margin-top: 2px;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+nav ul li a:hover::after {
+    transform: scaleX(1);
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #1b1b1b;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar1);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scrollbar2);
+}
+
+::selection {
+  background-color: var(--header-font-detail);
 }
