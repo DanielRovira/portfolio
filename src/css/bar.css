@@ -43,17 +43,3 @@
     color: var(--color2);
     transition: 0.15s;
 }
-
-/* Bar button effect */
-nav ul li a::after {
-    content: "";
-    display: block;
-    border-bottom: 2px solid var(--color2);
-    margin-top: 2px;
-    transform: scaleX(0);
-    transition: transform 0.3s ease;
-}
-
-nav ul li a:hover::after {
-    transform: scaleX(1);
-}
