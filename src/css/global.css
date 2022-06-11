@@ -1,13 +1,12 @@
-*, html {
-    /* overflow-x: hidden; */
+html {
     scroll-behavior: smooth;
+    font-size: 16px;
 }
 
 body {
     font-family: "Inter", sans-serif;
     letter-spacing: 1px;
     background-color: var(--background);
-    /* height: 100vmax; */
     overflow-x: hidden;
 }
 
