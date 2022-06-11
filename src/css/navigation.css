@@ -18,17 +18,19 @@
 
 /* Scroll down */
 .scroll {
-    position: absolute;
-    bottom: 1rem;
+    display: flex;
+    bottom: 5vh;
     font-weight: bold;
     letter-spacing: 2px;
+    align-items: center;
+    justify-content: center;
 }
   
 .scroll a {
     display: inline-block;
     font-size: 1.2rem;
-    margin-bottom: 2vh;
     color: var(--font);
+    margin-left: 20px;
 }
 
 .scroll img {

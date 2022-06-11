@@ -92,7 +92,13 @@
     }
     
     .projects {
-        padding-top: 1.5vh;
+        padding-top: 1vh;
+        height: 100%;
+    }
+
+    .projects ul {
+        margin: 2vh 0;
+        height: 100%;
     }
 
 }
