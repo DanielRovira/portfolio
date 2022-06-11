@@ -40,6 +40,10 @@
         content: '✕';
     }
 
+    .scroll {
+        height: 20vh
+    }
+
     .logo {
         position: absolute;
         top: 10%;
@@ -71,6 +75,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        height: 80vh;
     }
     
     .home .home-left {
