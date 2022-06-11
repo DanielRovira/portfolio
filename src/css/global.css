@@ -1,13 +1,13 @@
-html {
+*, html {
     overflow-x: hidden;
-    scroll-behavior: smooth
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: "Inter", sans-serif;
     letter-spacing: 1px;
     background-color: var(--background);
-    height: 100%;
+    height: auto;
     overflow-x: hidden;
 }
 
