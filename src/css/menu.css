@@ -39,10 +39,23 @@
 
 .index a {
     color: var(--font);
+    text-shadow: 10px 8px 5px black;
 }
 
 
 /* Responsive menu */
+
+@media (max-width:1300px) {
+
+    .index {
+       width: 60%;
+       font-size: 1.4rem;
+    }
+
+    .index ul li {
+       margin-left: 4vw;
+   }
+}
 
 @media (max-width:900px) {
 

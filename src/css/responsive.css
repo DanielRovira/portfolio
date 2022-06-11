@@ -1,15 +1,6 @@
 
 @media (max-width:1300px) {
 
-     .index {
-        width: 60%;
-        font-size: 1.4rem;
-     }
-
-     .index ul li {
-        margin-left: 4vw;
-    }
-
      .home .home-left {
         color: var(--font);
         width: 350px;

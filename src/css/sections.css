@@ -8,6 +8,7 @@
     height: 90vh;
     gap: 10vw;
     align-items: center;
+    text-shadow: 10px 8px 5px black;
 }
 
 .home .home-left {
@@ -46,6 +47,7 @@
     color: var(--font);
     font-size: 3rem;
     margin: 2vh;
+    text-shadow: 10px 8px 5px black;
 }
 
 .projects ul {

@@ -32,6 +32,7 @@
     font-size: 1.2rem;
     color: var(--font);
     margin-left: 20px;
+    text-shadow: 10px 8px 5px black;
 }
 
 .scroll b {
