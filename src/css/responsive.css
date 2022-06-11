@@ -1,6 +1,10 @@
 
 @media (max-width:900px) {
 
+    ::-webkit-scrollbar {
+        width: 0;
+    }
+
     .bar {
         position: fixed;
         top: -110vh;
@@ -86,4 +90,5 @@
        width: 350px;
        margin-block: 90px;
     }
+
 }
