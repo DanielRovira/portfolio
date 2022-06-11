@@ -43,13 +43,6 @@
     padding-top: 10vh;
 }
 
-.projects h1{
-    color: var(--font);
-    font-size: 3rem;
-    margin: 2vh;
-    text-shadow: 10px 8px 5px black;
-}
-
 .projects ul {
     display: flex;
     flex-wrap: wrap;
@@ -75,4 +68,13 @@
     animation-direction: alternate;
     transform: scale(1.07);
     border: 2px solid var(--color1);
+}
+
+.skills {
+    flex-direction: column;
+    position: relative;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    padding-top: 10vh;
 }

@@ -57,7 +57,7 @@
    }
 }
 
-@media (max-width:900px) {
+@media (max-width:5900px), (max-height: 500px) {
 
     .menu {
         position: fixed;
@@ -119,4 +119,23 @@
     .index ul li {
         margin: 0px;
     }
+}
+
+@media (max-height: 650px) {
+    .menu {
+        flex-direction: row;
+        gap: 20vw;
+        }
+
+    .logo {
+        top: 0;
+        position: relative;
+        }
+
+    .index {
+        position: relative;
+        top: 0;
+        width: fit-content;
+        }
+
 }
