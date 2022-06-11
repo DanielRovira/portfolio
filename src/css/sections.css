@@ -3,15 +3,16 @@
 .home {
     position: relative;
     display: flex;
-    padding: 300px 200px;
     justify-content: center;
     animation: fadeInOpacity 1.5s ease-in;
     height: 90vh;
+    gap: 10vw;
+    align-items: center;
 }
 
 .home .home-left {
     color: var(--font);
-    width: 50%;
+    width: 400px;
 }
 
 .home .home-left h1, h2 {
