@@ -35,17 +35,20 @@
 @keyframes scroll-down {
     0% {
       opacity: 0;
-      transform: translate3d(0, -15px, 0);
+      transform: rotate(90deg);
+      margin-top: -30px;
     }
+
     30% {
       opacity: 0;
     }
+    
     60% {
       opacity: 1;
     }
     100% {
       opacity: 0;
-      transform: translate3d(0, 5px, 0);
+      margin-top: 10px;
     }
 }
 
@@ -63,7 +66,12 @@
     transform: scaleX(1);
 }
 
-.hover h1:hover, .hover a:hover {
+.hover h1:hover, .hover a:hover, .hover a:hover ~ b {
     color: var(--color2);
+    transition: 0.5s;
+}
+
+.hover h1:hover .cursor{
+    background-color: var(--color2);
     transition: 0.5s;
 }

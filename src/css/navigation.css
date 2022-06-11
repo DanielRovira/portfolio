@@ -34,6 +34,13 @@
     margin-left: 20px;
 }
 
+.scroll b {
+    color: var(--font);
+    margin-left: 5px;
+    animation: scroll-down 3s infinite forwards;
+    transform: rotate(90deg);
+}
+
 .scroll img {
     animation: scroll-down 3s infinite forwards;
 }
