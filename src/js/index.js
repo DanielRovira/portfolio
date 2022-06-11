@@ -2,4 +2,4 @@
 import initTyping from "./modules/typing.js";
 
 
-initTyping();
+setTimeout(initTyping, 500);
