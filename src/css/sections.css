@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     animation: fadeInOpacity 1.5s ease-in;
-    height: 90vh;
+    min-height: 95vh;
     gap: 10vw;
     align-items: center;
     text-shadow: 10px 8px 5px black;
@@ -37,10 +37,8 @@
 .projects {
     flex-direction: column;
     position: relative;
-    height: 90vh;
     display: flex;
     align-items: center;
-    padding-top: 10vh;
 }
 
 .projects ul {
@@ -49,8 +47,7 @@
     align-items: center;
     justify-content: center;
     max-width: 90%;
-    height: 50vh;
-    margin: 10vh 0;
+    min-height: 50vh;
     gap: 10px;
     cursor: pointer;
 }
@@ -70,11 +67,12 @@
     border: 2px solid var(--color1);
 }
 
+/* Skills */
+
 .skills {
     flex-direction: column;
     position: relative;
-    height: 90vh;
     display: flex;
     align-items: center;
-    padding-top: 10vh;
+    /* padding-top: 10vh; */
 }

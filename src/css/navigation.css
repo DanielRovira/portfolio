@@ -19,12 +19,11 @@
 /* Scroll down */
 .scroll {
     display: flex;
-    bottom: 5vh;
     font-weight: bold;
     letter-spacing: 2px;
     align-items: center;
     justify-content: center;
-    height: 10vh;
+    height: 5vh;
 }
   
 .scroll a {

@@ -42,7 +42,6 @@
     text-shadow: 10px 8px 5px black;
 }
 
-
 /* Responsive menu */
 
 @media (max-width:1300px) {
@@ -58,6 +57,14 @@
 }
 
 @media (max-width:900px), (max-height: 500px) {
+
+    section {
+        scroll-margin-top: 5px;
+    }
+
+    .scroll.hide {
+        display: none;
+    }
 
     .menu {
         position: fixed;
@@ -122,6 +129,10 @@
 }
 
 @media (max-height: 500px) {
+
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
     .menu {
         flex-direction: row;
         gap: 20vw;
