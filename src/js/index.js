@@ -14,6 +14,7 @@ checkbox.addEventListener('change', (event) => {
   }
 })
 
+// Appear on screen
 
 var onAppear = [];
 
@@ -37,3 +38,9 @@ window.addEventListener("scroll", function() {
     }
   });
 }, false);
+
+
+
+if ((document.body.scrollTop || document.documentElement.scrollTop || window.pageYOffset) >= 300) {
+    $('#m1').fadeIn('slow');
+}
