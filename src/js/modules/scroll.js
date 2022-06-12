@@ -6,11 +6,11 @@ export default function initAnimationScroll() {
             const halfSection = window.innerHeight * 0.7;
             const sectionTop = section.getBoundingClientRect().top;
             if(sectionTop - halfSection < 0) {
-                section.classList.add('animation')
-                document.querySelector('.scroll').classList.add('fadeout')
+                section.querySelector('.section').classList.add('animation')
+                section.querySelector('.scroll').classList.add('fadeout')
             } else {
-                section.classList.remove('animation')
-                document.querySelector('.scroll').classList.remove('fadeout')
+                section.querySelector('.section').classList.remove('animation')
+                section.querySelector('.scroll').classList.remove('fadeout')
             }
         })
     }

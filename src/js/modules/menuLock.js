@@ -1,4 +1,4 @@
-export default function menu() {
+export default function menuLock() {
     const checkbox = document.getElementById('close-menu')
 
     checkbox.addEventListener('change', (event) => {

@@ -39,12 +39,8 @@
     }
     
     .home .home-left {
-        width: auto;
+        width: 90vw;
         margin-top: 100px;
-    }
-    
-    .home .home-left h1 {
-        font-size: 1.5rem;
     }
 
     .home .home-left .name {

@@ -76,13 +76,13 @@
     transition: 0.5s;
 }
 
-[data-anime="js-scroll"] {
+[data-anime="js-scroll"] .section {
     opacity: 0;
     transform: translate3d(0, 0, 0);
     transition: 0.5s;
 }
 
-[data-anime="js-scroll"].animation {
+[data-anime="js-scroll"] .section.animation {
     opacity: 1;
     transform: translate3d(0, 0, 0);
 }
