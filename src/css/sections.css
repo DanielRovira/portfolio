@@ -7,6 +7,7 @@
     gap: 10vw;
     align-items: center;
     text-shadow: 10px 8px 5px black;
+    min-height: 85vh;
 }
 
 .home .home-left {
@@ -37,6 +38,8 @@
     position: relative;
     display: flex;
     align-items: center;
+    background-color: var(--background2);
+    background-origin: 0 -500px;
 }
 
 .projects ul {
@@ -45,7 +48,7 @@
     align-items: center;
     justify-content: center;
     max-width: 90%;
-    min-height: 50vh;
+    /* min-height: 50vh; */
     gap: 10px;
     cursor: pointer;
 }
@@ -73,4 +76,5 @@
     display: flex;
     align-items: center;
     /* padding-top: 10vh; */
+    min-height: 85vh;
 }

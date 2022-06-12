@@ -16,7 +16,7 @@ body {
 header h1{
     color: var(--font);
     font-size: 3rem;
-    margin: 0 0 2vh;
+    margin: 3vh;
     text-shadow: 10px 8px 5px black;
 }
 
@@ -25,6 +25,5 @@ footer {
 }
 
 section {
-    scroll-margin-top: 85px;
-    min-height: 85vh;
+    scroll-margin-top: 20vh;
 }
