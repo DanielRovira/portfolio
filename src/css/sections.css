@@ -4,7 +4,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-    min-height: 95vh;
+    /* min-height: 95vh; */
     gap: 10vw;
     align-items: center;
     text-shadow: 10px 8px 5px black;
