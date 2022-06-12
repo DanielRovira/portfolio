@@ -1,11 +1,6 @@
 
 @media (max-width:1300px) {
 
-     .home .home-left {
-        color: var(--font);
-        width: 350px;
-    }
-
      .home .home-left h1, h2 {
         font-size: 1.5rem;
         margin: 2rem 0;
@@ -39,7 +34,6 @@
     }
     
     .home .home-left {
-        width: 90vw;
         margin-top: 100px;
     }
 
