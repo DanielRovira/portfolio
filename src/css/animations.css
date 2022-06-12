@@ -91,4 +91,7 @@
     animation: fadeInOpacity 1s ease-out;
     animation-fill-mode: backwards;
 }
-  
+
+.fadeout {
+    opacity: 0;
+}

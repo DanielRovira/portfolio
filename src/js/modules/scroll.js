@@ -7,13 +7,13 @@ export default function initAnimationScroll() {
             const sectionTop = section.getBoundingClientRect().top;
             if(sectionTop - halfSection < 0) {
                 section.classList.add('animation')
-                document.querySelector('.scroll').style.opacity = 0
+                document.querySelector('.scroll').classList.add('fadeout')
             } else {
                 section.classList.remove('animation')
-                document.querySelector('.scroll').style.opacity = 1
+                document.querySelector('.scroll').classList.remove('fadeout')
             }
         })
     }
-
+    
     window.addEventListener('scroll', animaScroll);
 }

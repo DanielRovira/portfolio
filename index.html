@@ -18,13 +18,13 @@
 <body>
     <header>
         <input type="checkbox" class="close-menu" id="close-menu" aria-label="Close menu" role="button">
-        <label for="close-menu" class="close-menu-label" title="Close menu"></label>
+        <label for="close-menu" class="close-menu-label fadein" title="Close menu"></label>
         <nav class="menu fadein">
             <div class="logo">
                 <a href="index.html"><img src="./src/img/logo.jpg" alt="Logo"></a>
             </div>
             <div class="index hover">
-                <ul onclick="getElementById('close-menu').checked=false;">
+                <ul onclick="getElementById('close-menu').checked=false;document.documentElement.style.overflowY='auto'">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#">About me</a></li>
                     <li><a href="#projects">Projects</a></li>
@@ -50,7 +50,7 @@
             <b>»</b>
         </div>
         <section id="projects" data-anime="js-scroll">
-            <div class="projects">
+            <div class="projects section">
                 <header class="hover">
                     <h1>Projects<span class="cursor"></span></h1>
                 </header>
@@ -74,10 +74,6 @@
                 </ul>
             </div>
         </section>
-        <div class="scroll hide hover">
-            <a href="#skills">scroll down</a>
-            <b>»</b>
-        </div>
         <section id="skills" class="skills">
             <div>
                 <header class="hover">
