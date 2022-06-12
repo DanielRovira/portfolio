@@ -26,6 +26,7 @@
     justify-content: center;
     height: 5vh;
     width: 100%;
+    transition: .7s;
 }
   
 .scroll a {
@@ -39,9 +40,6 @@
 .scroll b {
     color: var(--font);
     margin-left: 5px;
-    animation: scroll-down;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation: scroll-down 3s infinite forwards;
     transform: rotate(90deg);
 }
