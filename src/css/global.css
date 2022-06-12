@@ -8,6 +8,9 @@ body {
     letter-spacing: 1px;
     background-color: var(--background);
     overflow-x: hidden;
+    animation: fadeInOpacity 2s ease-out;
+    animation-fill-mode: backwards;
+    animation-delay: .25s;
 }
 
 header h1{

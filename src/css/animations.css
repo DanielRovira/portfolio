@@ -79,7 +79,7 @@
 [data-anime="js-scroll"] .section {
     opacity: 0;
     transform: translate3d(0, 0, 0);
-    transition: 0.5s;
+    transition: .7s;
 }
 
 [data-anime="js-scroll"] .section.animation {
@@ -87,12 +87,8 @@
     transform: translate3d(0, 0, 0);
 }
 
-.fadein {
-    animation: fadeInOpacity 1s ease-out;
-    animation-fill-mode: backwards;
-}
-
 .fadeout {
     opacity: 0;
-    pointer-events: none
+    pointer-events: none;
+    transition: .7s;
 }

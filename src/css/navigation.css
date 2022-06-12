@@ -25,7 +25,6 @@
     align-items: center;
     justify-content: center;
     height: 5vh;
-    transition: ease 0.5s;
 }
   
 .scroll a {
