@@ -90,6 +90,7 @@
         text-align: center;
         border-radius: 12px;
         cursor: pointer;
+        animation: fadeInOpacity 4s ease;
     }
 
     .close-menu:checked~.menu {

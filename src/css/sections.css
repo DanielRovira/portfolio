@@ -4,7 +4,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-    animation: fadeInOpacity 1.5s ease-in;
+   /* animation: fadeInOpacity 1.5s ease-in; */
     min-height: 95vh;
     gap: 10vw;
     align-items: center;
