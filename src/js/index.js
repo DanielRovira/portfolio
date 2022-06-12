@@ -1,9 +1,15 @@
 
 import initTyping from "./modules/typing.js";
+import initAnimationScroll from "./modules/scroll.js";
 
 
 setTimeout(initTyping, 500);
+initAnimationScroll(); //aparecer
 
+
+
+
+//ajeitar, quando clica no menu para de rolar
 const checkbox = document.getElementById('close-menu')
 
 checkbox.addEventListener('change', (event) => {
@@ -13,34 +19,3 @@ checkbox.addEventListener('change', (event) => {
     document.documentElement.style.overflowY='auto';
   }
 })
-
-// Appear on screen
-
-var onAppear = [];
-
-document.addEventListener("DOMContentLoaded", function() {
-  onAppear = [].map.call(document.querySelectorAll(".onAppear"), function(item ) {
-    return item;
-  });
-}, false);
-
-window.addEventListener("scroll", function() {
-  onAppear.forEach(function(elem) {
-    var vwTop = window.pageYOffset;
-    var vwBottom = (window.pageYOffset + window.innerHeight);
-    var elemTop = elem.offsetTop;
-    var elemHeight = elem.offsetHeight;
-    
-    if (vwBottom > elemTop && ((vwTop - elemHeight) < elemTop)) {
-     elem.classList.add("visible");
-    } else {
-      elem.classList.remove("visible");
-    }
-  });
-}, false);
-
-
-
-if ((document.body.scrollTop || document.documentElement.scrollTop || window.pageYOffset) >= 300) {
-    $('#m1').fadeIn('slow');
-}

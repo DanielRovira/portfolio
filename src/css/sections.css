@@ -4,7 +4,6 @@
     position: relative;
     display: flex;
     justify-content: center;
-    animation: fadeInOpacity 1.5s ease-in;
     min-height: 95vh;
     gap: 10vw;
     align-items: center;
@@ -30,9 +29,6 @@
 
 .home .home-right img {
     width: 500px;
-    animation: fadeInOpacity 2s ease-out;
-    animation-delay: 3s;
-    animation-fill-mode: backwards;
 }
 
 /* Projects */

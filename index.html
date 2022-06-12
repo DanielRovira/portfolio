@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Daniel Rovira</title>
-    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="icon" href="./src/img/icon.png">
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/colors.css">
@@ -20,7 +19,7 @@
     <header>
         <input type="checkbox" class="close-menu" id="close-menu" aria-label="Close menu" role="button">
         <label for="close-menu" class="close-menu-label" title="Close menu"></label>
-        <nav class="menu">
+        <nav class="menu fadein">
             <div class="logo">
                 <a href="index.html"><img src="./src/img/logo.jpg" alt="Logo"></a>
             </div>
@@ -35,7 +34,7 @@
         </nav>
     </header>
     <main>
-        <section id="home" class="home">
+        <section id="home" class="home fadein">
             <div class="home-left">
                 <h1>Hi, I'm</h1>
                 <span class="name"></span>
@@ -46,12 +45,12 @@
                 <img src="./src/img/coder.png" alt="Coder">
             </div>
         </section>
-        <div class="scroll hover">
+        <div class="scroll hover fadein">
             <a href="#projects">scroll down</a>
             <b>»</b>
         </div>
-        <section id="projects">
-            <div class="projects onAppear">
+        <section id="projects" data-anime="js-scroll">
+            <div class="projects">
                 <header class="hover">
                     <h1>Projects<span class="cursor"></span></h1>
                 </header>

@@ -25,9 +25,7 @@
     align-items: center;
     justify-content: center;
     height: 5vh;
-    animation: fadeInOpacity 2s ease-out;
-    animation-delay: 3.5s;
-    animation-fill-mode: backwards;
+    transition: ease 0.5s;
 }
   
 .scroll a {
