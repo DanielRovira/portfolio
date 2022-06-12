@@ -90,7 +90,9 @@
         text-align: center;
         border-radius: 12px;
         cursor: pointer;
-        animation: fadeInOpacity 4s ease;
+        animation: fadeInOpacity 2s ease-out;
+        animation-delay: 1.5s;
+        animation-fill-mode: backwards;
     }
 
     .close-menu:checked~.menu {
