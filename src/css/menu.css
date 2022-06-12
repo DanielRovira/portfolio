@@ -91,7 +91,7 @@
         border-radius: 12px;
         cursor: pointer;
         animation: fadeInOpacity 2s ease-out;
-        animation-delay: 1.5s;
+        animation-delay: 2s;
         animation-fill-mode: backwards;
     }
 

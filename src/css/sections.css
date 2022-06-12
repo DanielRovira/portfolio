@@ -30,6 +30,9 @@
 
 .home .home-right img {
     width: 500px;
+    animation: fadeInOpacity 2s ease-out;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
 }
 
 /* Projects */
