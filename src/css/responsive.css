@@ -35,6 +35,7 @@
     
     .home .home-left {
         margin-top: 100px;
+        min-width: 340px;
     }
 
     .home .home-left .name {

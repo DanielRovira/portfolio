@@ -8,7 +8,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5%;
     border-bottom: 1px solid var(--header-border);
 }
 
@@ -22,7 +21,7 @@
 
 .index {
     width: 50vw;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .index ul {
@@ -33,12 +32,11 @@
 }
 
 .index ul li {
-    margin-left: 5vw;
-    font-weight: bold;
+    margin-left: 3vw;
 }
 
 .index a {
-    color: var(--font);
+    color: white;
     text-shadow: 10px 8px 5px black;
 }
 
