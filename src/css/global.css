@@ -31,16 +31,23 @@ section {
 }
 
 footer {
+    background-color: var(--background2);
     position: relative;
-    padding: 10px;
-    margin: 10px;
-    height: 120px;
+    padding: 15px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100vw;
+    gap: 40vw;
 }
 
 footer p {
     font-size: 1rem;
     color: var(--font);
     margin: 10px;
+    text-align: right;
 }
 
 footer .links {

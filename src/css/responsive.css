@@ -71,6 +71,16 @@
     .skills .right {
         width: 60vw;
     }
+    
+    footer {
+        flex-direction: column;
+        gap: 0;
+        height: 130px;
+    }
+    
+    footer p {
+        text-align: center;
+    }
 }
 @media (max-height:700px) {
 
