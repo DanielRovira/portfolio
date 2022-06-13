@@ -56,6 +56,33 @@
     width: min-content; 
 }
 
+.about .left .photo {
+    width: 250px;
+    border-radius: 20px;
+}
+
+.about .left .button {
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+    text-align: center;
+    border: 2px solid var(--header-border);
+    background-color: var(--background);
+    width: fit-content;
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.about .left .button a {
+    display: flex;
+    color: var(--font);
+}
+
+.about .left .button img {
+    height: 40px;
+}
+
 .about .subsection .right {
     width: 700px; 
     align-items: flex-end;
@@ -68,10 +95,6 @@
     text-align: justify;
 }
 
-.about .left img {
-    width: 250px;
-    border-radius: 20px;
-}
 
 /* Skills */
 

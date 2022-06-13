@@ -43,15 +43,25 @@
        width: 350px;
        margin-block: 50px;
     }
-    
-    .projects {
-        height: 100%;
+
+    .about .subsection {
+        /* flex-direction: column; */
+        width: 95vw;
     }
 
-    .projects ul {
-        margin: 2vh 0;
-        height: 100%;
+    .about .left .photo {
+        width: 150px;
     }
+
+    .about .subsection .right {
+        width: 60vw;
+        margin: 0 10px;
+    }
+
+    .about .subsection .right p {
+        font-size: 1.2rem;
+    }
+
 
     .skills {
         padding-top: 1vh;
@@ -68,6 +78,15 @@
 
     .skills .right {
         width: 60vw;
+    }
+
+    .projects {
+        height: 100%;
+    }
+
+    .projects ul {
+        margin: 2vh 0;
+        height: 100%;
     }
     
     footer {
