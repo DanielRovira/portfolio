@@ -58,11 +58,11 @@
 
     .skills {
         padding-top: 1vh;
-        min-height: 700px;
+        /* min-height: fit-content; */
     }
     
     .skills .subsection {
-        height: 60vh;
+        min-height: fit-content;
     }
 
     .skills .left ul {
@@ -76,7 +76,6 @@
     footer {
         flex-direction: column;
         gap: 0;
-        height: 130px;
     }
     
     footer p {
