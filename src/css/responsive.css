@@ -7,9 +7,7 @@
     }
 
     .home .home-left .name {
-        text-transform: uppercase;
         font-size: 2.5rem;
-        font-weight: bold;
         color: var( --color1);
     }
 
@@ -29,13 +27,12 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height: 80vh;
         gap: 0;
     }
     
     .home .home-left {
         margin-top: 100px;
-        min-width: 340px;
+        min-width: 40ch;
     }
 
     .home .home-left .name {
@@ -44,7 +41,7 @@
 
     .home .home-right img {
        width: 350px;
-       margin-block: 90px;
+       margin-block: 50px;
     }
     
     .projects {

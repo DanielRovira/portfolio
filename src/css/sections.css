@@ -7,12 +7,13 @@
     gap: 10vw;
     align-items: center;
     text-shadow: 10px 8px 5px black;
-    min-height: 85vh;
+    height: 80vh;
 }
 
 .home .home-left {
     color: var(--font);
     justify-content: center;
+    min-width: 45ch;
 }
 
 .home .home-left h1, .home .home-left  h2 {
