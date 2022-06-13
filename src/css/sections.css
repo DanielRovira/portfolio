@@ -98,7 +98,7 @@
 
 .skills .left ul li {
     display: flex;
-    background-color: white;
+    background-color: var(--background2);
     width: 100px;
     height: 100px;
     padding: 10px;
@@ -114,5 +114,9 @@
 .skills .right p {
     font-size: 2rem;
     color: var(--font);
+}
+
+.skill img {
+    background-color: var(--background2);
 }
 
