@@ -88,7 +88,7 @@
 
 .skills .left ul {
     display: flex;
-    gap: 50px;
+    gap: 25px;
     flex-wrap: wrap;
 }
 
