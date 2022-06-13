@@ -33,40 +33,44 @@
     width: 500px;
 }
 
-/* Projects */
+/* About me */
 
-.projects {
+.about {
     flex-direction: column;
     position: relative;
     display: flex;
     align-items: center;
+    /* height: 50vh; */
+    /* min-height: fit-content; */
     background-color: var(--background2);
 }
 
-.projects ul {
+.about .subsection {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    max-width: 90%;
-    gap: 10px;
-    cursor: pointer;
-    padding: 2vh 0 0;
+    width: 70vw;
+    flex-direction: row;
+    align-items: flex-start;
 }
 
-.projects img {
-    max-width: 300px;
-    border-radius: 5%;
-    border: solid 2px var(--background);
-    transition: 0.2s ease-in-out;
-    overflow: hidden;
+.about .subsection .left {
+    width: min-content; 
 }
 
-.projects img:hover {
-    animation: c-glowing-blue .2s ease-in-out infinite;
-    animation-direction: alternate;
-    transform: scale(1.07);
-    border: 2px solid var(--color1);
+.about .subsection .right {
+    width: 700px; 
+    align-items: flex-end;
+    margin: 0 100px;
+}
+
+.about .subsection .right p {
+    color: var(--font);
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.about .left img {
+    width: 250px;
+    border-radius: 20px;
 }
 
 /* Skills */
@@ -126,4 +130,41 @@
 .skill img {
     background-color: var(--background2);
 }
+
+/* Projects */
+
+.projects {
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: var(--background2);
+}
+
+.projects ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    gap: 10px;
+    cursor: pointer;
+    padding: 2vh 0;
+}
+
+.projects img {
+    max-width: 300px;
+    border-radius: 5%;
+    border: solid 2px var(--background);
+    transition: 0.2s ease-in-out;
+    overflow: hidden;
+}
+
+.projects img:hover {
+    animation: c-glowing-blue .2s ease-in-out infinite;
+    animation-direction: alternate;
+    transform: scale(1.07);
+    border: 2px solid var(--color1);
+}
+
 
