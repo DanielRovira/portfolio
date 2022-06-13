@@ -1,8 +1,8 @@
 
 @media (max-width:1300px) {
 
-     .home .home-left h1, h2 {
-        font-size: 1.5rem;
+     .home .home-left h1, .home .home-left h2 {
+        font-size: 1.6rem;
         margin: 2rem 0;
     }
 
