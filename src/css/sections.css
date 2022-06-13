@@ -47,7 +47,7 @@
 
 .about .subsection {
     display: flex;
-    width: 70vw;
+    width: 60vw;
     flex-direction: row;
     align-items: flex-start;
 }
