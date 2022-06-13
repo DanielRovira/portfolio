@@ -59,6 +59,17 @@
     .skills {
         padding-top: 1vh;
     }
+    .skills .subsection {
+        height: 60vh;
+    }
+
+    .skills .left ul {
+        width: min-content;
+    }
+
+    .skills .right {
+        width: 60vw;
+    }
 }
 @media (max-height:700px) {
 
