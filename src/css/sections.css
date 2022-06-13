@@ -70,6 +70,11 @@
 
 /* Skills */
 
+.skills {
+    min-height: 400px;
+    padding: 20px 0;
+}
+
 .skills header {
     width: fit-content;
     margin: auto;
@@ -79,7 +84,6 @@
     margin: 20px;
     display: flex;
     justify-content: center;
-    height: 400px;
 }
 
 .skills .left  {

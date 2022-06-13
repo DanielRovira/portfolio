@@ -58,6 +58,7 @@
 
     .skills {
         padding-top: 1vh;
+        min-height: 700px;
     }
     
     .skills .subsection {
