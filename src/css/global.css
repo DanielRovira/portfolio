@@ -34,9 +34,24 @@ footer {
     position: relative;
     padding: 10px;
     margin: 10px;
+    height: 120px;
 }
 
 footer p {
     font-size: 1rem;
     color: var(--font);
+    margin: 10px;
+}
+
+footer .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer img {
+    height: 50px;
+    width: 50px;
+    border: 100px;
 }
