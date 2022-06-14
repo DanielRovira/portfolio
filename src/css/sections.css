@@ -89,8 +89,8 @@
 .about .right {
     width: 500px; 
     align-items: flex-end;
-    margin: 0 5vw;
-    padding: 0 10px;
+    margin: 50px 0;
+    padding: 0 50px;
 }
 
 .about .right p {
@@ -142,7 +142,6 @@
 /* Skills */
 
 .skills {
-    /* min-height: 400px; */
     /* padding: 20px 0; */
     background-color: var(--background2);
 }
@@ -151,6 +150,7 @@
     padding: 10px;
     background-color: #121212;
     /* margin: 20px 0; */
+    min-height: 400px;
 }
 
 .skills header {
@@ -182,6 +182,7 @@
     border-radius: 20px;
     justify-content: center;
     border: 2px solid var(--border);
+    transition: .2s;
 }
 
 .skills .right {
@@ -196,6 +197,13 @@
 
 .skill img {
     background-color: var(--background2);
+    filter: grayscale();
+    transition: .2s;
+}
+
+.skills .left ul li:hover, .skills .left ul li:hover img {
+    background-color: black;
+    filter: none;
 }
 
 /* Projects */

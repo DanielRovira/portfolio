@@ -60,13 +60,13 @@
 
     .about .right {
         width: 90vw;
-        margin: 10px;
+        padding: 0;
     }
 
     .about .right p {
         width: 100%;
         font-size: 1.2rem;
-        height: 280px;
+        height: 250px;
     }
 
     .skills {
