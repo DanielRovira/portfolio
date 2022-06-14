@@ -69,7 +69,7 @@
     line-height: 40px;
     text-align: center;
     border: 2px solid var(--border);
-    background-color: black;
+    background-color: var(--background);
     width: fit-content;
     margin: 20px auto;
     border-radius: 10px;
@@ -97,7 +97,7 @@
     color: var(--font);
     font-size: 1.5rem;
    /* text-align: justify; */
-    background-color: black;
+    background-color: var(--background);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 20px;
@@ -127,7 +127,7 @@
 
 .about .right .selected {
     font-size: 1.8rem;
-    background-color: black;
+    background-color: var(--background);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     width: 80%;
@@ -179,6 +179,7 @@
     padding: 10px;
     border-radius: 20px;
     justify-content: center;
+    border: 2px solid var(--border);
 }
 
 .skills .right {

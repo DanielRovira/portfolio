@@ -1,13 +1,11 @@
 :root {
     --background: #121212;
-    --background2: #151515;
+    --background2: #181818;
     --font: #c4c4c4;
 
     --color1: rgb(5, 195, 243);
     --color2: rgb(4, 160, 199);
 
     --header: rgba(0, 0, 0, 0.35);
-    --header-border: rgba(255, 255, 255, 0.05);
-
-    --border: rgba(255, 255, 255, 0.3);
+    --border: rgba(255, 255, 255, 0.1);
     }
