@@ -47,18 +47,20 @@
 
 .about .subsection {
     display: flex;
-    width: 60vw;
+    width: 70vw;
     flex-direction: row;
     align-items: flex-start;
 }
 
 .about .left {
-    width: min-content; 
+    width: min-content;
+    gap: 30px;
 }
 
 .about .left .photo {
     width: 250px;
     border-radius: 20px;
+    border: 2px solid var(--border);
 }
 
 .about .left .button {
@@ -66,12 +68,13 @@
     justify-content: center;
     line-height: 40px;
     text-align: center;
-    border: 2px solid var(--header-border);
-    background-color: var(--background);
+    border: 2px solid var(--border);
+    background-color: black;
     width: fit-content;
-    margin: auto;
+    margin: 20px auto;
     border-radius: 10px;
     padding: 5px;
+    height: fit-content;
 }
 
 .about .left .button a {
@@ -86,20 +89,21 @@
 .about .right {
     width: 700px; 
     align-items: flex-end;
-    margin: 0 100px;
-    padding: 10px;
+    margin: 0 5vw;
+    padding: 0 10px;
 }
 
 .about .right p {
     color: var(--font);
     font-size: 1.5rem;
-    text-align: justify;
+   /* text-align: justify; */
     background-color: black;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 20px;
-    border: 2px solid white;
+    border: 2px solid var(--border);
     border-top: 0;
+    width: 40vw;
 }
 
 .about .right ul {
@@ -117,7 +121,7 @@
     height: 50px;
     transition: .2s;
     border: 0;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid var(--border);
 
 }
 
@@ -127,9 +131,10 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     width: 80%;
-    border: 2px solid white;
+    border: 2px solid var(--border);
     border-bottom: 0;
-    color: var(--color2);
+    color: white;
+    font-weight: bold;
 }
 
 /* Skills */
