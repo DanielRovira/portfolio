@@ -53,12 +53,12 @@
         width: 150px;
     }
 
-    .about .subsection .right {
+    .about .right {
         width: 60vw;
         margin: 0 10px;
     }
 
-    .about .subsection .right p {
+    .about .right p {
         font-size: 1.2rem;
     }
 
