@@ -52,6 +52,8 @@
     .about .left {
         display: flex;
         flex-direction: row;
+        margin: 0;
+        gap: 20px;
     }
 
     .about .left .photo {
@@ -61,6 +63,7 @@
     .about .right {
         width: 90vw;
         padding: 0;
+        margin: 20px 0;
     }
 
     .about .right p {

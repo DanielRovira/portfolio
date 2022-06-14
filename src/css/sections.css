@@ -54,11 +54,11 @@
 
 .about .left {
     width: min-content;
-    gap: 30px;
+    margin: 50px 0;
 }
 
 .about .left .photo {
-    width: 250px;
+    width: 200px;
     border-radius: 20px;
     border: 2px solid var(--border);
 }
