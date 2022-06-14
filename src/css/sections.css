@@ -130,6 +130,10 @@
     cursor: pointer;
 }
 
+.about .right ul li:hover {
+    color: white;
+}
+
 .about .right .selected {
     font-size: 1.8rem;
     background-color: var(--background);
@@ -199,14 +203,20 @@
 
 .skill img {
     background-color: var(--background2);
-    filter: grayscale();
+    filter: grayscale(50%);
     transition: .2s;
 }
 
-.skills .left ul li:hover, .skills .left ul li:hover img {
+.skills .left ul li:hover {
     background-color: black;
+}
+
+.skills .left ul li:hover img {
+    background-color: black;
+    transform: scale(1.1);
     filter: none;
 }
+
 
 /* Projects */
 
@@ -235,7 +245,7 @@
     border: solid 2px var(--background);
     transition: 0.2s ease-in-out;
     overflow: hidden;
-    filter: grayscale();
+    filter: grayscale(50%);
 }
 
 .projects img:hover {

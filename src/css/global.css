@@ -57,8 +57,10 @@ footer img, .links img {
     width: 50px;
     border: 100px;
     transition: .2s;
+    filter: grayscale(50%);
 }
 
 footer .links img:hover, .links img:hover {
     transform: scale(1.1);
+    filter: none;
 }
