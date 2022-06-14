@@ -47,14 +47,14 @@ footer p {
     text-align: right;
 }
 
-footer .links {
+footer .links, .links {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
 
-footer img {
+footer img, .links img {
     height: 50px;
     width: 50px;
     border: 100px;
