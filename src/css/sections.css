@@ -87,15 +87,17 @@
     width: 700px; 
     align-items: flex-end;
     margin: 0 100px;
-    background-color: var(--background);
     padding: 10px;
-    border-radius: 10px;
 }
 
 .about .right p {
     color: var(--font);
     font-size: 1.5rem;
     text-align: justify;
+    background-color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
 }
 
 .about .right ul {
@@ -106,9 +108,17 @@
 .about .right ul li {
     width: 50%;
     height: 30px;
-    color: red;
+    color: var(--font);
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.⁵rem;
+    padding: 5px;
+}
+
+.about .right .selected {
+    font-size: 1.8rem;
+    background-color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 /* Skills */
