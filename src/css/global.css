@@ -58,4 +58,9 @@ footer img, .links img {
     height: 50px;
     width: 50px;
     border: 100px;
+    transition: .2s;
+}
+
+footer .links img:hover, .links img:hover {
+    transform: scale(1.1);
 }

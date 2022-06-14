@@ -75,6 +75,7 @@
     border-radius: 10px;
     padding: 5px;
     height: fit-content;
+    transition: .2s;
 }
 
 .about .left .button a {
@@ -84,6 +85,15 @@
 
 .about .left .button img {
     height: 40px;
+}
+
+.about .left .button:hover {
+    transform: scale(1.07);
+
+}
+
+.about .left .button:hover a {
+    color: white;
 }
 
 .about .right {
@@ -233,6 +243,7 @@
     border: solid 2px var(--background);
     transition: 0.2s ease-in-out;
     overflow: hidden;
+    filter: grayscale();
 }
 
 .projects img:hover {
@@ -240,6 +251,7 @@
     animation-direction: alternate;
     transform: scale(1.07);
     border: 2px solid var(--color1);
+    filter: none;
 }
 
 
