@@ -49,7 +49,7 @@
     display: flex;
     width: 70vw;
     flex-direction: row;
-    align-items: flex-start;
+    justify-content: center;
 }
 
 .about .left {
@@ -87,7 +87,7 @@
 }
 
 .about .right {
-    width: 700px; 
+    width: 500px; 
     align-items: flex-end;
     margin: 0 5vw;
     padding: 0 10px;
@@ -103,12 +103,13 @@
     padding: 20px;
     border: 2px solid var(--border);
     border-top: 0;
-    width: 40vw;
+    /* width: 40vw; */
 }
 
 .about .right ul {
     display: flex;
     flex-direction: row;
+    overflow: hidden;
 }
 
 .about .right ul li {
@@ -117,12 +118,12 @@
     color: var(--font);
     text-align: center;
     font-size: 1.5rem;
-    padding: 10px;
+    padding: 10px 5px;
     height: 50px;
     transition: .2s;
-    border: 0;
+    border: 2px solid var(--background2);
     border-bottom: 2px solid var(--border);
-
+    cursor: pointer;
 }
 
 .about .right .selected {
@@ -132,9 +133,10 @@
     border-top-right-radius: 20px;
     width: 80%;
     border: 2px solid var(--border);
-    border-bottom: 0;
+    border-bottom: 2px solid var(--background);
     color: white;
     font-weight: bold;
+    cursor:default;
 }
 
 /* Skills */
