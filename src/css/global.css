@@ -24,11 +24,9 @@ header h1{
 
 section {
     scroll-margin-top: 25vh;
-    /* padding: 2vh 0; */
 }
 
 footer {
-    /* background-color: var(--background2); */
     position: relative;
     padding: 15px;
     height: fit-content;
