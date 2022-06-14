@@ -97,7 +97,9 @@
     background-color: black;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding: 10px;
+    padding: 20px;
+    border: 2px solid white;
+    border-top: 0;
 }
 
 .about .right ul {
@@ -110,8 +112,13 @@
     height: 30px;
     color: var(--font);
     text-align: center;
-    font-size: 1.⁵rem;
-    padding: 5px;
+    font-size: 1.5rem;
+    padding: 10px;
+    height: 50px;
+    transition: .2s;
+    border: 0;
+    border-bottom: 2px solid white;
+
 }
 
 .about .right .selected {
@@ -119,6 +126,9 @@
     background-color: black;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    width: 80%;
+    border: 2px solid white;
+    border-bottom: 0;
 }
 
 /* Skills */
