@@ -1,5 +1,5 @@
 
-@media (max-width:1300px) {
+@media (max-width:1390px) {
 
      .home .home-left h1, .home .home-left h2 {
         font-size: 1.6rem;
@@ -13,6 +13,24 @@
     .home .home-right img {
         width: 400px;
      }
+
+     .about .right {
+        width: 60vw;
+     }
+
+     .about .right p {
+        font-size: 1.4rem;
+     }
+
+     .about .right ul li {
+        font-size: 1.4rem;
+     }
+
+     .about .right .selected {
+        font-size: 1.6rem;
+     }
+
+
 }
 
 
@@ -69,7 +87,7 @@
     .about .right p {
         width: 100%;
         font-size: 1.2rem;
-        height: 250px;
+        height: 160px;
     }
 
     .skills {
@@ -112,4 +130,16 @@
         display: none;
     }
 
+}
+
+@media (max-width:600px) {
+    .about .right p {
+        height: 180px;
+    }
+}
+
+@media (max-width:480px) {
+    .about .right p {
+        height: 250px;
+    }
 }
