@@ -20,6 +20,7 @@ header h1{
     margin: 1vh;
     text-shadow: 10px 8px 5px black;
     text-align: center;
+    cursor: default;
 }
 
 section {
