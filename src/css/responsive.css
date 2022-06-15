@@ -124,13 +124,7 @@
         text-align: center;
     }
 }
-@media (max-height:700px) {
 
-    .scroll.hide {
-        display: none;
-    }
-
-}
 
 @media (max-width:600px) {
     .about .right p {

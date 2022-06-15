@@ -8,6 +8,7 @@
     align-items: center;
     text-shadow: 10px 8px 5px black;
     height: 80vh;
+    z-index: -1;
 }
 
 .home .home-left {
