@@ -11,25 +11,25 @@
     z-index: -1;
 }
 
-.home .home-left {
+.home .left {
     color: var(--font);
     justify-content: center;
     min-width: 45ch;
 }
 
-.home .home-left h1, .home .home-left  h2 {
+.home .left h1, .home .left  h2 {
     font-size: 1.8rem;
     margin: 2rem 0;
     font-weight: lighter;
 }
 
-.home .home-left .name {
+.home .left .name {
     text-transform: uppercase;
     font-size: 3rem;
     color: var( --color1);
 }
 
-.home .home-right img {
+.home .right img {
     width: 500px;
 }
 
