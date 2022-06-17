@@ -1,4 +1,4 @@
-
+import {about} from '../text.js';
 export default function initAbout() {
 document.querySelector('.about-text').innerHTML = about['personal'];
 const buttons = document.querySelectorAll('.about-btn');

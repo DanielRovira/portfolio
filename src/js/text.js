@@ -14,3 +14,5 @@ git:    '<p>Git</p> <br> <p>It is a distributed version control system, mainly u
 github: '<p>Github</p> <br> <p>It is a source code and file hosting platform with version control using Git.</p> <br>',
 hover:  '/* Hover over a skill to read the description */'
 }
+
+export {typeName, about, Skill}

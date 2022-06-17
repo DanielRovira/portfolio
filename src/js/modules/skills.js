@@ -1,4 +1,4 @@
-
+import {Skill} from '../text.js';
 export default function initSkills() {
     document.querySelectorAll('.skill').forEach(  (selected) => {
         const idSelected = selected.attributes.id.value

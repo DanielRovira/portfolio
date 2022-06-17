@@ -1,3 +1,4 @@
+import {typeName} from '../text.js';
 export default function initTyping() {
     let letter = 0;
 
