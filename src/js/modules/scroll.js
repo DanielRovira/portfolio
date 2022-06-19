@@ -16,4 +16,5 @@ export default function initAnimationScroll() {
     }
     
     window.addEventListener('scroll', animaScroll);
+    window.addEventListener('load', animaScroll);
 }
