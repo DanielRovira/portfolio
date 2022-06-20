@@ -76,7 +76,6 @@
     transition: 0.5s;
 }
 
- /* Animação pausada */
 [data-anime="js-scroll"] .section {
     opacity: 0;
     transform: translate3d(0, 0, 0);
