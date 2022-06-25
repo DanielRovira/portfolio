@@ -246,11 +246,19 @@
     height: fit-content;
     padding: 5px;
     border: 1px solid var(--border);
-    background-color: rgba(255,255,255,0.05);
+    background-color: rgba(255,255,255,0.02);
     border-radius: 10px;
     align-items: center;
     justify-content: center;
+    transition: 0.2s ease-in-out;
+    filter: grayscale(30%);
 }
+
+.projects ul li:hover {
+    transform: scale(1.02);
+    filter: none;
+}
+
 
 .projects ul li h1 {
     font-size: 1.5rem;
@@ -262,19 +270,14 @@
 
 .projects .projectImage {
     max-width: 300px;
-    border-radius: 5%;
+    border-radius: 10px;
     border: solid 2px var(--background);
     transition: 0.2s ease-in-out;
     overflow: hidden;
-    filter: grayscale(50%);
 }
 
 .projects .projectImage:hover {
-    animation: c-glowing-blue .2s ease-in-out infinite;
-    animation-direction: alternate;
-    transform: scale(1.07);
-    border: 2px solid var(--color1);
-    filter: none;
+    transform: scale(1.03);
 }
 
 .projects ul li .button {
