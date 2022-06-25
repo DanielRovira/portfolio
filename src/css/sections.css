@@ -169,16 +169,18 @@
 .skills .subsection {
     display: flex;
     justify-content: center;
+    gap: 3vw;
 }
 
 .skills .left  {
-    max-width: 300px;
+    max-width: 320px;
 }
 
 .skills .left ul {
     display: flex;
-    gap: 25px;
+    gap: 10px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .skills .left ul li {
@@ -191,10 +193,11 @@
     justify-content: center;
     border: 2px solid var(--border);
     transition: .2s;
+    overflow: hidden;
 }
 
 .skills .right {
-    width: 30vw;
+    width: 50vw;
     margin: 20px;
 }
 
