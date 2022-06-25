@@ -6,7 +6,7 @@ export default function initSkills() {
             document.querySelector('.skill-text').innerHTML = Skill[idSelected];
         } )
 
-        selected.addEventListener('mouseout', () => {
-            document.querySelector('.skill-text').innerHTML = Skill.hover;
-        } ) 
+        // selected.addEventListener('mouseout', () => {
+        //     document.querySelector('.skill-text').innerHTML = Skill.hover;
+        // } ) 
     } )}
