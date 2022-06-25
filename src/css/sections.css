@@ -240,6 +240,14 @@
     padding: 2vh 0;
 }
 
+.projects ul li {
+    height: 250px;
+    padding: 5px;
+    border: 1px solid var(--border);
+    background-color: rgba(255,255,255,0.05);
+    border-radius: 10px;
+}
+
 .projects img {
     max-width: 300px;
     border-radius: 5%;
