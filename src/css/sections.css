@@ -279,7 +279,7 @@
 }
 
 .projects .projectImage:hover {
-    transform: scale(1.03);
+    transform: scale(1.02);
 }
 
 .projects ul li .button {
@@ -309,7 +309,7 @@
 }
 
 .projects ul li .button:hover {
-    transform: scale(1.07);
+    transform: scale(1.03);
 }
 
 .projects ul li .button:hover a {
