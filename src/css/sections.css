@@ -241,14 +241,26 @@
 }
 
 .projects ul li {
-    height: 250px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
     padding: 5px;
     border: 1px solid var(--border);
     background-color: rgba(255,255,255,0.05);
     border-radius: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
-.projects img {
+.projects ul li h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    width: fit-content;
+    margin: 3px;
+    color: var(--font);
+}
+
+.projects .projectImage {
     max-width: 300px;
     border-radius: 5%;
     border: solid 2px var(--background);
@@ -257,7 +269,7 @@
     filter: grayscale(50%);
 }
 
-.projects img:hover {
+.projects .projectImage:hover {
     animation: c-glowing-blue .2s ease-in-out infinite;
     animation-direction: alternate;
     transform: scale(1.07);
@@ -265,4 +277,35 @@
     filter: none;
 }
 
+.projects ul li .button {
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+    text-align: center;
+    border: 2px solid var(--border);
+    background-color: black;
+    width: fit-content;
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px;
+    height: fit-content;
+    transition: .2s;
+}
+
+.projects ul li .button a {
+    display: flex;
+    color: var(--font);
+}
+
+.projects ul li .button img {
+    height: 40px;
+}
+
+.projects ul li .button:hover {
+    transform: scale(1.07);
+}
+
+.projects ul li .button:hover a {
+    color: white;
+}
 
