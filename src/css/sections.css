@@ -74,6 +74,7 @@
     padding: 5px;
     height: fit-content;
     transition: .2s;
+    cursor: pointer;
 }
 
 .about .left .button a {
@@ -236,7 +237,6 @@
     justify-content: center;
     max-width: 90%;
     gap: 10px;
-    cursor: pointer;
     padding: 2vh 0;
 }
 
@@ -274,6 +274,8 @@
     border: solid 2px var(--background);
     transition: 0.2s ease-in-out;
     overflow: hidden;
+    cursor: pointer;
+
 }
 
 .projects .projectImage:hover {
@@ -293,6 +295,8 @@
     padding: 5px;
     height: fit-content;
     transition: .2s;
+    cursor: pointer;
+
 }
 
 .projects ul li .button a {
