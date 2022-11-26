@@ -276,13 +276,13 @@
 }
 
 .projects .projectImage {
-    max-width: 300px;
+    width: 300px;
+    height: 180px;
     border-radius: 10px;
     border: solid 2px var(--background);
     transition: 0.2s ease-in-out;
     overflow: hidden;
     cursor: pointer;
-
 }
 
 .projects .projectImage:hover {
