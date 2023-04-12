@@ -23,7 +23,7 @@ header h1{
     cursor: default;
 }
 
-section {
+section#about, section#skills {
     scroll-margin-top: 15vh;
 }
 

@@ -3,7 +3,7 @@ export default function initAnimationScroll() {
 
     function animaScroll() {
         sections.forEach((section) => {
-            const halfSection = window.innerHeight * 0.7;
+            const halfSection = window.innerHeight * 0.6;
             const sectionTop = section.getBoundingClientRect().top;
             if(sectionTop - halfSection < 0) {
                 section.querySelector('.section').classList.add('animation')
