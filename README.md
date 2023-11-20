@@ -3,6 +3,6 @@
 Made completely in HTML, CSS and JavaScript.
 
 Visit on:
-https://danielrovira.github.io/Portfolio/
+https://danielrovira.github.io/portfolio/
 
 Made by Daniel Rovira
