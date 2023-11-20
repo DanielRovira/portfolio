@@ -62,7 +62,11 @@
     border: 2px solid var(--border);
 }
 
-.about .left .button {
+.about .left .buttons {
+    margin: 10px auto;
+}
+
+/* .about .left .buttons {
     display: flex;
     justify-content: center;
     line-height: 40px;
@@ -76,16 +80,16 @@
     height: fit-content;
     transition: .2s;
     cursor: pointer;
-}
+} */
 
-.about .left .button a {
+/* .about .left .button a {
     display: flex;
     color: var(--font);
-}
+} */
 
-.about .left .button img {
+/* .about .left .button img {
     height: 40px;
-}
+} */
 
 .about .left .button:hover {
     transform: scale(1.07);
